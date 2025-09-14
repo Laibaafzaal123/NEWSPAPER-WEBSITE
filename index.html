@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JHANG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="home" class="main-header">
+    <div class="logo-area">
+      <h1 class="site-title"><img src="./l.jpg" alt="">JHANG</h1>
+      <p class="tagline">Voice of Jhang, Voice of Truth</p>
+    </div>
+
+    <!-- Search
+    <div class="header-actions">
+      <div class="search-bar">
+        <input type="text" placeholder="Search news...">
+        <button>Search</button>
+      </div>
+    </div> -->
+  </header>
+
+  <!-- Breaking News -->
+  <div class="breaking-news">
+    <marquee behavior="scroll" direction="left">
+      🚨 Breaking: Jhang’s first IT park inaugurated | 🌾 Wheat production in Jhang reaches record high | 🎓 New university campus opens in Jhang | 🕌 Cultural festival to be held in October
+    </marquee>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#flood">flood</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#sports">Sports</a></li>
+      <li><a href="#agriculture">Agriculture</a></li>
+      <li><a href="#festival">Festival</a></li>
+      <li><a href="#politics">Politics</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="container">
+      <!-- Row 1 -->
+      <div class="card-row">
+        <!-- Card 1 City -->
+        <div class="card" id="flood">
+          <img src="./2.jpg" alt="Flood">
+          <div class="card-content">
+            <h2>Severe Floods Hit Pakistan</h2>
+            <div class="date">September 12, 2025</div>
+            <p>
+              Heavy rains have caused severe flooding in several regions of Pakistan
+              <span id="dots1">...</span>
+              <span id="more1" style="display:none;">Authorities are working on rescue operations and relief efforts, while thousands of people have been displaced from their homes.</span>
+            </p><br>
+            <button id="btn1" class="read-btn" onclick="toggleText(1)">Read more</button>
+          </div>
+        </div>
+        <!-- Card 2 Education -->
+<div class="card" id="education">
+  <img src="./habib-university-karachi-860x505.png" alt="Education">
+  <div class="card-content">
+    <h2>New University Campus Opens</h2>
+    <div class="date">September 9, 2025</div>
+    <p>
+      A new campus for higher education has been inaugurated
+      <span id="dots2">...</span>
+      <span id="more2" style="display:none;">The campus includes state-of-the-art classrooms, modern laboratories, and recreational facilities for students, aiming to enhance quality education across the country.</span>
+    </p>
+    <br>
+    <button id="btn2" class="read-btn" onclick="toggleText(2)">Read more</button>
+  </div>
+</div>
+
+        <!-- Card 3 Sports -->
+<div class="card" id="sports">
+  <img src="./featured-image-of-sports-in-pakistan.jpg" alt="Sports">
+  <div class="card-content">
+    <h2>Local Cricket Team Wins District Cup</h2>
+    <div class="date">September 8, 2025</div>
+    <p>
+      The local cricket team secured the district championship
+      <span id="dots3">...</span>
+      <span id="more3" style="display:none;">Players received medals and trophies, inspiring young athletes in the region to pursue sports professionally and develop their skills.</span>
+    </p>
+    <br>
+    <button id="btn3" class="read-btn" onclick="toggleText(3)">Read more</button>
+  </div>
+</div>
+<!-- 
+      </div> -->
+
+      <!-- Row 2 -->
+      <div class="card-row">
+        <div class="card" id="agriculture">
+          <img src="./beautiful-landscape-view-rice-field-swat-valley-pakistan_433823-996.jpg" alt="Agriculture">
+          <div class="card-content">
+            <h2>Record Wheat Harvest Achieved</h2>
+            <div class="date">September 5, 2025</div>
+            <p>
+              Farmers have reported record wheat production
+              <span id="dots4">...</span>
+              <span id="more4" style="display:none;">Government support and modern farming techniques have contributed to this high yield, boosting the local and national economy.</span>
+            </p>
+            <br>
+            <button id="btn4" class="read-btn" onclick="toggleText(4)">Read more</button>
+          </div>
+        </div>
+        </div>
+
+        <!-- Card 5 Festival -->
+        <div class="card" id="festival">
+          <img src="./Top-10-Pakistani-Festivals-and-Celebrations-Experiencing-the-Rich-Culture-and-Traditions.jpg" alt="Festival">
+          <div class="card-content">
+            <h2>Cultural Festival Announced</h2>
+            <div class="date">September 3, 2025</div>
+            <p>
+              An annual cultural festival will bring together artists and musicians
+              <span id="dots5">...</span>
+              <span id="more5" style="display:none;">It will showcase traditional music, art exhibitions, and food stalls attracting visitors from across the region.</span>
+            </p>
+            <br>
+            <button id="btn5" class="read-btn" onclick="toggleText(5)">Read more</button>
+          </div>
+        </div>
+        
+       <!-- Card 6 Politics -->
+<!-- Card 6 Politics -->
+<div class="card" id="politics">
+  <img src="./197554_7515483_updates.jpg" alt="Politics">
+  <div class="card-content">
+    <h2>Major Political Rally Held in Pakistan</h2>
+    <div class="date">September 1, 2025</div>
+    <p>
+      A significant political rally was recently organized in Pakistan
+      <span id="dots6">...</span>
+      <span id="more6" style="display:none;">Thousands of citizens attended, voicing their opinions on key national issues, while political leaders discussed future plans and policies for the country.</span>
+    </p>
+    <br>
+    <button id="btn6" class="read-btn" onclick="toggleText(6)">Read more</button>
+  </div>
+</div>
+
+
+
+
+
+
+      </div>
+    </div>
+
+    <!-- Trending Section -->
+    <section class="trending">
+      <h2>🔥 Trending in Jhang</h2>
+      <div class="trending-list">
+        <div class="trend-item">
+          <h3>University Campus Opens</h3>
+          <p>New university campus inaugurated in Jhang with modern facilities.</p>
+        </div>
+        <div class="trend-item">
+          <h3>Local Cricket Stars Shine</h3>
+          <p>Jhang cricket players selected for regional tournament.</p>
+        </div>
+        <div class="trend-item">
+          <h3>Farmers Get Subsidy Support</h3>
+          <p>Govt announces subsidies on fertilizers for Jhang farmers.</p>
+        </div>
+        <div class="trend-item">
+          <h3>Cultural Festival Coming Soon</h3>
+          <p>A 3-day festival to showcase Jhang’s art, music & traditions.</p>
+        </div>
+        <div class="trend-item">
+          <h3>Health Program Launched</h3>
+          <p>Free medical checkups and health awareness camps in Jhang.</p>
+        </div>
+        <div class="trend-item">
+          <h3>Sports Complex Approved</h3>
+          <p>Government approves new sports complex for youth training.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scroll to Top -->
+  <button id="scrollTopBtn">↑</button>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>JHANG</h3>
+        <p>Delivering authentic and timely news from Jhang and beyond.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+      <li><a href="#flood">flood</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#sports">Sports</a></li>
+      <li><a href="#agriculture">Agriculture</a></li>
+      <li><a href="#festival">Festival</a></li>
+      <li><a href="#politics">Politics</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>Email: info@jhangnews.com</p>
+        <p>Phone: +92 300 6543210</p>
+        <p>Jhang, Pakistan</p>
+        <div class="social-icons">
+          <a href="#"><img src="./icons8-facebook-48.png" alt="Facebook"></a>
+          <a href="#"><img src="./icons8-twitter-bird-48.png" alt="Twitter"></a>
+          <a href="#"><img src="./icons8-instagram-48.png" alt="Instagram"></a>
+          <a href="#"><img src="./icons8-youtube-48.png" alt="YouTube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 JHANG News. All Rights Reserved.</p>
+    </div>
+  </footer>
+<script src="./app.js"></script>
+</body>
+</html>
+
+
